@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "For elegant, smooth scroll animations and micro-interactions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/cafeteria/public/images/hero-cafe.png"
+    description: "Warm, moody, close-up photography of a freshly poured artisan cappuccino in a rustic ceramic mug with steam rising, set on a wooden table with soft morning light."
+    aspect_ratio: "16:9"
+  - path: "artifacts/cafeteria/public/images/pan-de-elote.png"
+    description: "A delicious, rustic slice of authentic Mexican pan de elote (sweet corn cake) on a beautiful handmade ceramic plate, warm inviting lighting, highly detailed food photography."
+    aspect_ratio: "4:3"
+  - path: "artifacts/cafeteria/public/images/marquesita.png"
+    description: "Crispy rolled marquesita dessert filled with melting cheese and chocolate hazelnut spread, artisan street food style but gourmet presentation, warm tones."
+    aspect_ratio: "4:3"
+  - path: "artifacts/cafeteria/public/images/panini.png"
+    description: "A perfectly grilled Italian panini sandwich cut in half showing melted cheese, rustic cafe table setting, appetizing food photography."
+    aspect_ratio: "4:3"
+
+notes:
+  - This is a static digital menu and landing page. No backend/API is required.
+  - Vercel.json is included for seamless SPA deployment.
