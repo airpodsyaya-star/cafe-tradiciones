@@ -42,10 +42,10 @@ export default function Location() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-lg mb-1">Horario</h4>
-                  <p className="text-muted-foreground">
-                    Lunes a Domingo<br />
-                    8:00 AM - 10:00 PM
-                  </p>
+                  <div className="text-muted-foreground space-y-1">
+                    <p><span className="font-medium text-foreground">Lun – Vie:</span> 3:00 PM – 10:00 PM</p>
+                    <p><span className="font-medium text-foreground">Sáb – Dom:</span> 4:00 PM – 10:00 PM</p>
+                  </div>
                 </div>
               </div>
 
@@ -55,9 +55,9 @@ export default function Location() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-lg mb-1">Contacto</h4>
-                  <p className="text-muted-foreground">
-                    +52 55 1234 5678
-                  </p>
+                  <a href="tel:5583756630" className="text-muted-foreground hover:text-primary transition-colors">
+                    +52 55 8375 6630
+                  </a>
                 </div>
               </div>
             </div>

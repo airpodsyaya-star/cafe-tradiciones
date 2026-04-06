@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function FloatingActions() {
   // WhatsApp Number configured here
-  const waNumber = "5215512345678"; 
+  const waNumber = "525583756630"; 
   const waMessage = "Hola! Quisiera hacer un pedido o consulta.";
   const waLink = `https://wa.me/${waNumber}?text=${encodeURIComponent(waMessage)}`;
 
