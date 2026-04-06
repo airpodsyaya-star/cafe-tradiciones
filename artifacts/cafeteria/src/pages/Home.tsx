@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Menu from "@/components/Menu";
 import Reviews from "@/components/Reviews";
-import Reservations from "@/components/Reservations";
+import ReservationsCTA from "@/components/ReservationsCTA";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <Menu />
       <Reviews />
-      <Reservations />
+      <ReservationsCTA />
       <Location />
       <Footer />
       <FloatingActions />
