@@ -6,3 +6,9 @@ id = "Aji9Ee0CeH2dpi_uBjrib"
 uri = "file://cafeteria-proyecto.zip"
 type = "unspecified"
 title = "cafeteria-proyecto.zip"
+
+[[outputs]]
+id = "f0xjl7mk5fBg4_hwSxU7W"
+uri = "file://cafeteria-netlify.zip"
+type = "unspecified"
+title = "cafeteria-netlify.zip — Carpeta lista para Netlify"
