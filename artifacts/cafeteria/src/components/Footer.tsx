@@ -9,9 +9,10 @@ export default function Footer() {
             <Coffee className="w-8 h-8 text-accent" />
             <span className="font-serif text-2xl font-bold">Tradiciones</span>
           </div>
-          <div className="flex gap-6">
+          <div className="flex gap-6 flex-wrap justify-center">
             <a href="#nosotros" className="hover:text-accent transition-colors">Nosotros</a>
             <a href="#menu" className="hover:text-accent transition-colors">Menú</a>
+            <a href="#reservaciones" className="hover:text-accent transition-colors">Reservaciones</a>
             <a href="#ubicacion" className="hover:text-accent transition-colors">Ubicación</a>
           </div>
         </div>

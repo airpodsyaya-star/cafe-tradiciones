@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Coffee, Store, Wifi, ShoppingBag } from "lucide-react";
+import { Coffee, Store, ShoppingBag, Heart } from "lucide-react";
 
 const features = [
   { icon: Store, title: "Consumo en lugar", desc: "Ambiente acogedor" },
   { icon: ShoppingBag, title: "Para llevar", desc: "Práctico y rápido" },
-  { icon: Wifi, title: "WiFi Gratis", desc: "Conexión veloz" },
+  { icon: Heart, title: "Hecho con amor", desc: "Recetas familiares" },
   { icon: Coffee, title: "Café de Especialidad", desc: "Granos selectos" },
 ];
 
