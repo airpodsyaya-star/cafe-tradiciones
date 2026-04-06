@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Aji9Ee0CeH2dpi_uBjrib"
+uri = "file://cafeteria-proyecto.zip"
+type = "unspecified"
+title = "cafeteria-proyecto.zip"
