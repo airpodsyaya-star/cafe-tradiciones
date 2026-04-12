@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { Link } from "wouter";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -46,13 +47,13 @@ export default function Hero() {
 
       {/* Button — always anchored to bottom */}
       <div className="absolute bottom-8 left-0 right-0 z-10 flex justify-center">
-        <a
-          href="#menu"
+        <Link
+          href="/menu"
           className="group inline-flex items-center gap-3 px-8 py-4 bg-accent text-white rounded-full font-semibold text-lg shadow-lg shadow-accent/30 hover:bg-accent/90 hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
         >
           Ver Menú Digital
-          <ArrowDown className="w-5 h-5 group-hover:animate-bounce" />
-        </a>
+          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </Link>
       </div>
     </section>
   );

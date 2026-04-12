@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Menu from "@/components/Menu";
 import Reviews from "@/components/Reviews";
 import ReservationsCTA from "@/components/ReservationsCTA";
 import Location from "@/components/Location";
@@ -12,7 +11,6 @@ export default function Home() {
     <main className="w-full bg-background min-h-screen">
       <Hero />
       <About />
-      <Menu />
       <Reviews />
       <ReservationsCTA />
       <Location />
